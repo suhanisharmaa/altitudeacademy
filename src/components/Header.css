@@ -1,0 +1,68 @@
+a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.page_header{
+    top: 0;
+    height: 12vh;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(52, 128, 226);
+    display: flex;
+    z-index: 100;
+}
+.main_header{
+    top: 0;
+    height: 12vh;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    z-index: 100;
+    background-color: transparent;  
+}
+.header_logo{
+    object-fit: contain;
+    margin: 12px 70px;
+    margin-right: 40px;
+    color: black;
+}
+.header_nav{
+    color: white;
+    /* color: black; */
+    /* margin-left: 380px;     */
+    display: flex;
+    align-items:center;
+}
+.header_option{
+    margin: 18px;
+    font-weight: 600;
+}
+.header_option > a > p{
+    margin-top: 16px;
+}
+.header_contact{
+    margin: 18px;
+}
+#call:hover > ul{
+    display: block;
+}
+ul {
+    position: absolute;
+    right: 220px;
+    top: 55px;
+    width: 130px;
+    height: 120px;
+    border-radius: 5px;
+    display: none;
+  }
+ul > li{ 
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    display: block; 
+  }
+

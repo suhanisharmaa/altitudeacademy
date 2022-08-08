@@ -1,0 +1,42 @@
+.reviews{
+  margin-top: 100px;
+}
+.reviews > h2{
+    color: rgb(32, 32, 129)
+}
+.gallery{
+   /* margin-top: 50px; */
+   padding: 20px;
+}
+.column > img{
+    transition: transform .2s ease;
+}
+.column > img:hover{
+    transform: scale(1.8);
+    z-index: 10;
+}
+.c > img:hover{
+    transform: scale(1.8) translateX(-100px);
+}
+.a > img:hover{
+  transform: scale(1.8) translateX(100px);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create 3 equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+  } 
+ 
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }

@@ -1,0 +1,8 @@
+.items > h3{
+    margin-top: 105px;
+    color: rgb(28, 28, 124);
+}
+.items > p{
+    margin: 20px;
+    font-size: larger;
+}

@@ -1,0 +1,89 @@
+/* .gallery{
+   margin-top: 50px;
+   padding: 20px;
+}
+.gallery > img{
+    transition: transform .2s;
+}
+.gallery > img:hover{
+    transform: scale(1.5);
+    z-index: 10;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  /* .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  } */
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  } */
+
+  .gal{
+    margin-top: 100px;
+  }
+  .gal > h2{
+      color: rgb(32, 32, 129)
+  }
+  .gallery{
+     /* margin-top: 50px; */
+     padding: 20px;
+  }
+  .column > img{
+      transition: transform .2s ease;
+  }
+  .column > img:hover{
+      transform: scale(1.8);
+      z-index: 10;
+  }
+  .c > img:hover{
+      transform: scale(1.8) translateX(-100px);
+  }
+  .a > img:hover{
+    transform: scale(1.8) translateX(100px);
+  }
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create 3 equal columns that sits next to each other */
+    .column {
+      flex: 33.33%;
+      max-width: 33.33%;
+      padding: 0 4px;
+    } 
+   
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+  

@@ -1,0 +1,185 @@
+
+h2,h3{
+    font-weight: 900;
+    color: rgb(51, 51, 139);
+    text-transform: capitalize;
+}
+body > h2{
+    font-weight: 600;
+    color: rgb(51, 51, 139);
+}
+.overview_content{
+    /* justify-content: center; */
+    align-items: center;
+}
+.overview_heading{
+    position: relative;
+    background-color: rgb(52, 128, 226);
+    height: 68vh;
+    width: 100%;
+}
+.overview_heading > h1{
+    color: white;
+    padding: 90px;
+}
+.center {
+    position: absolute;
+    top: 30vh;
+    left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.overview_img > img{
+    max-height: 70vh;
+    width: 50%;
+}
+.overview_text{
+    font-size: larger;
+    font-weight: 600;
+    margin: auto;
+    padding: 20px 60px;
+    text-align: left;
+}
+.overview_text > h3{
+    font-weight: 900;
+    text-align: left;
+    color: rgb(51, 51, 139);
+    margin-top: 20px;
+}
+.card{
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    top: 30vh;
+    left: 10%;
+    box-shadow: 0 0 10px 8px rgb(57, 161, 196);
+}
+
+.teachers{
+    margin-top: 70vh;
+}
+.teachers > h2{
+    font-weight: 900;
+    color: rgb(51, 51, 139);
+}
+.photos > button{
+    background-color: rgb(35, 35, 240);
+    /* height: 30px; */
+    color: white;
+    margin-top: 20px;
+    padding: 11px 20px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 800;
+}
+.photos > button:hover{
+    cursor: pointer;
+    box-shadow: 0px 8px 6px -6px black;
+}
+.teacher_option{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    /* margin-bottom: 0px;   */
+    padding-bottom: 0px;
+    box-shadow: 0 0 10px 8px rgb(57, 161, 196);
+}
+.p{
+    background-color: rgba(35, 179, 192, 0.782);
+    background-color: rgb(71, 59, 59);
+    background-color: rgb(52, 128, 226);
+    z-index: -2;
+    position: relative;
+    top: -100px;
+    height: 70.5vh;
+    width: 25vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* transform: translateY(10%); */
+}
+.p > p{
+    padding-top: 150px;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+}
+.teacher_left{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    object-fit: contain;
+    max-height: 89vh;
+}
+.teacher_left > img{
+    border: 2px solid rgb(23, 46, 76);
+    border-radius: 50%;
+    width: 15vw;
+    height: 35vh;
+    z-index: 10;
+    position: relative;
+    top: 0px;
+}
+.teacher_right{
+    width: 750vh;
+    text-align: left;
+    margin: auto;
+    margin-left: 70px;
+    padding: 55px 30px;
+    padding-bottom: 0px;
+    /* background-image: linear-gradient(to right,rgb(52, 128, 226),white); */
+}
+.teacher_right > h2{
+    font-weight: 900;
+    color: rgb(51, 51, 139);
+}
+.teacher_right > p{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.photos > h2{
+    font-weight: 900;
+    color: rgb(51, 51, 139);
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+.photos > button{
+    margin: 30px;
+}
+.details > h2, details > h3{
+    font-weight: 900;
+    color: rgb(51, 51, 139);
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+.map_img{
+    margin: 30px ;
+    height: 60vh;
+}
+.map_img > iframe{
+    width: 70%;
+    height: 60vh;
+}
+.map > h3{
+    margin: 20px;
+    font-size: medium;
+    color: black;
+    margin: 40px;
+}
+.contact_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: fill;
+}
+.ab{
+    margin: 50px;
+}
+.col > a, .col-4 > a{
+    color: black;
+} 
+.col > a:hover, .col-4 > a:hover{
+    color: yellow;
+}
+
